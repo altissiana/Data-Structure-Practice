@@ -4,12 +4,25 @@ namespace DataStructures.Collections
 {
     public class IntLinkedList
     {
-        private IntNode node;
+        private IntNode node; 
         
         public void Add(int value)
         {
-            var node = new IntNode(value, null);
-            this.node = node;
+            if(node == null)
+            {
+                node = new IntNode(value, null);
+            }
+            else 
+            {
+                var currentnode = node;
+
+                while(currentnode.NextNode != null)
+                {
+                    currentnode = currentnode.NextNode;
+                }
+
+                currentnode.NextNode = new IntNode(value, null);
+            }
         }
 
         

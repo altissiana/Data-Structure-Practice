@@ -4,12 +4,15 @@ namespace DataStructures.Entities
     {
         private int value;
 
-        private IntNode nextNode;
+        public IntNode NextNode
+        {
+            get; set;
+        }
 
         public IntNode(int value, IntNode nextNode)
         {
             this.value =  value;
-            this.nextNode = nextNode;
+            this.NextNode = nextNode;
         }
     }
 }
