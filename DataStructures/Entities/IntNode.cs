@@ -5,5 +5,10 @@ namespace DataStructures.Entities
         private IntNode value;
 
         private IntNode nextNode;
+
+        public IntNode(int value, IntNode nextNode)
+        {
+            
+        }
     }
 }
