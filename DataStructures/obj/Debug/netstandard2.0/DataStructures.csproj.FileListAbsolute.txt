@@ -1,0 +1,8 @@
+/Users/altissiana/Projects/data-structure-practice/DataStructures/bin/Debug/netstandard2.0/DataStructures.deps.json
+/Users/altissiana/Projects/data-structure-practice/DataStructures/bin/Debug/netstandard2.0/DataStructures.dll
+/Users/altissiana/Projects/data-structure-practice/DataStructures/bin/Debug/netstandard2.0/DataStructures.pdb
+/Users/altissiana/Projects/data-structure-practice/DataStructures/obj/Debug/netstandard2.0/DataStructures.csprojAssemblyReference.cache
+/Users/altissiana/Projects/data-structure-practice/DataStructures/obj/Debug/netstandard2.0/DataStructures.AssemblyInfoInputs.cache
+/Users/altissiana/Projects/data-structure-practice/DataStructures/obj/Debug/netstandard2.0/DataStructures.AssemblyInfo.cs
+/Users/altissiana/Projects/data-structure-practice/DataStructures/obj/Debug/netstandard2.0/DataStructures.dll
+/Users/altissiana/Projects/data-structure-practice/DataStructures/obj/Debug/netstandard2.0/DataStructures.pdb

@@ -14,5 +14,11 @@ namespace DataStructures.Entities
             this.value =  value;
             this.NextNode = nextNode;
         }
+
+        public IntNode(int value) : this(value, null)
+        {
+            
+        }
+
     }
 }

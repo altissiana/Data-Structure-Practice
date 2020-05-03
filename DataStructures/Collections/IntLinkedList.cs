@@ -5,12 +5,19 @@ namespace DataStructures.Collections
     public class IntLinkedList
     {
         private IntNode node; 
+        public int Count
+        {
+            get; set;
+        }
+
         
         public void Add(int value)
         {
+            Count++;
+
             if(node == null)
             {
-                node = new IntNode(value, null);
+                node = new IntNode(value);
             }
             else 
             {
@@ -21,7 +28,7 @@ namespace DataStructures.Collections
                     currentnode = currentnode.NextNode;
                 }
 
-                currentnode.NextNode = new IntNode(value, null);
+                currentnode.NextNode = new IntNode(value);
             }
         }
 

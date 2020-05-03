@@ -12,8 +12,6 @@ namespace DataStructureTests
             public void ReturnZeroWhenListIsEmpty()
             {
                 IntLinkedList list = new IntLinkedList();
-
-                // Hint: Count should be a C# auto-property
                 Assert.Equal(0, list.Count);
             }
 
